@@ -1,0 +1,23 @@
+{
+  "name": "assign-student-mentor-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "studentMentor.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node studentMentor.js",
+    "dev": "nodemon studentMentor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0"
+  }
+}
